@@ -25,5 +25,7 @@
 - Does not persist images across app restarts (intended behavior)
 - Mock API only; no real backend
 
-## 
+## 📹 Demo Videos:
+- Project Features: https://drive.google.com/drive/folders/12zXqdZJw4PkA-agKEe3a8cn9IIGM8HpX
+- Technical Stack: https://drive.google.com/drive/folders/12zXqdZJw4PkA-agKEe3a8cn9IIGM8HpX
 
