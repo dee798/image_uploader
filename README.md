@@ -1,16 +1,29 @@
-# image_uploader
+# Flutter Offline Image Upload App
 
-A new Flutter project.
+## 🔧 Setup
+1. Clone the repo or extract zip
+2. Run `flutter pub get`
+3. Connect a device or emulator
+4. Run `flutter run`
 
-## Getting Started
+## 🚀 Features
+- Image picker from gallery
+- Offline support with in-memory (RAM) storage
+- Auto-upload on internet restoration
+- Upload status: Pending, Uploading, Success, Failed
+- Retry option for failed uploads
+- (Bonus) Multiple image selection and local notifications
 
-This project is a starting point for a Flutter application.
+## 📦 Packages Used
+- image_picker
+- connectivity_plus
+- provider
+- http
+- fluttertoast
 
-A few resources to get you started if this is your first Flutter project:
+## ❗ Limitations
+- Does not persist images across app restarts (intended behavior)
+- Mock API only; no real backend
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
